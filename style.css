@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+<uniquifier>: Use um nome de classe exclusivo e descritivo // <weight>: Use um valor de 100 a 900 .roboto-condensed-<uniquifier> { font-family: "Roboto Condensed", sans-serif; dimensionamento óptico da fonte: automático; peso da fonte: <peso>; estilo de fonte: normal; }
+
+body{display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(teck.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+
+}
+.interface{align-items: center;
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(10, 209, 20, 0.171);
+    box-shadow: 5px 5px 19px 5px rgba(44, 243, 4, 0.39);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+h1{
+    text-align: ;
+    font-size: 40px;
+    color: aliceblue;
+}
+.input-conteiner{
+    position: relative;
+    width: 100vh;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-conteiner input{
+    width 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(114, 95, 95);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 10px 35px 10px 10px;
+}
+.input-conteiner input::placeholder {
+    color: rgba(255, 255, 255, .5)
+    
+}
+.input-conteiner img{
+    position: absolute;
+    right: 0,5px;
+    margin-top: 8px;
+    margin-left: -30px;
+}
+.senha a{
+font-size: 16px;
+margin-top: 5px;
+color: aliceblue;
+text-decoration: none;
+}
+.senha a:hover{
+    color: blanchedalmond;
+}
+
+button {
+    --c: #fff;
+   /* text color */
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+      #004cff98;
+   /* background color */
+    color: #0000;
+    border: none;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+    text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+      calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+  }
+  
+  button:hover,
+  button:focus-visible {
+    --_p: 0%;
+    --_i: 1;
+  }
+  
+  button:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q rgba(7, 7, 7, 0.333);
+    transition: 0s;
+  }
+  
+  button {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    cursor: pointer;
+    padding: .1em .3em;
+    border-radius: 10px;
+  }
+  p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: antiquewhite;
+    border: 2px solid rgba(97, 96, 96, 0.288);
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: black 5px 5px 15px;
+  }
+  p{
+    color: rgba(248, 248, 242, 0.63);
+  }
+  .cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  
+
+
+
+
+
+
+
